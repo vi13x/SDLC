@@ -266,26 +266,30 @@ Qt Widgets и Qt SQL с драйвером SQLite; файловый интерф
 
 ### Структурные модели компонентов интерфейса (SysML v2)
 
-![Структура главного экрана](diagrams/dashboard-page.png)
+![Структура главной страницы АвтоДневника](diagrams/dashboard-page.png)
 
-[Исходник главного экрана](diagrams/dashboard-page.sysml).
+*Рисунок 1 — Структурный прототип главной страницы на SysML v2. [Исходник SysML v2](diagrams/dashboard-page.sysml).*
 
 ![Структура карточки автомобиля](diagrams/vehicle-page.png)
 
-[Исходник карточки автомобиля](diagrams/vehicle-page.sysml).
-
-[Подробная модель четырёх экранов](diagrams/autodiary.sysml).
+*Рисунок 2 — Структурный прототип карточки автомобиля на SysML v2. [Исходник SysML v2](diagrams/vehicle-page.sysml).*
 
 ### Визуальные мокапы интерфейса
 
-Мокапы показывают компоновку экранов в виде чёрно-белых прямоугольных блоков. Значения полей обозначены заполнителями; календарные даты не выводятся. Полный состав полей определяется требованиями раздела 3.
+![Мокап главной страницы](diagrams/mockups/dashboard-mockup.png)
 
-![Обзор автомобиля](diagrams/mockups/dashboard-mockup.png)
+*Рисунок 3 — Мокап главной страницы с карточкой автомобиля, обслуживанием и быстрыми действиями. [Модель SysML v2](diagrams/autodiary.sysml).*
 
-![Техническое обслуживание](diagrams/mockups/maintenance-mockup.png)
+![Мокап технического обслуживания](diagrams/mockups/maintenance-mockup.png)
 
-![История заправок](diagrams/mockups/fuel-mockup.png)
+*Рисунок 4 — Мокап истории обслуживания и формы новой записи. [Модель SysML v2](diagrams/autodiary.sysml).*
 
-![Страховка и напоминания](diagrams/mockups/insurance-mockup.png)
+![Мокап истории заправок](diagrams/mockups/fuel-mockup.png)
 
-Требования версии 0.1 подготовлены к согласованию. Замечания заказчика и преподавателя и решения по ним фиксируются в pull request. Согласование ещё не выполнено.
+*Рисунок 5 — Мокап истории заправок с фильтром и итогами расходов. [Модель SysML v2](diagrams/autodiary.sysml).*
+
+![Мокап страховки и напоминаний](diagrams/mockups/insurance-mockup.png)
+
+*Рисунок 6 — Мокап страхового полиса и настроек напоминаний. [Модель SysML v2](diagrams/autodiary.sysml).*
+
+Требования версии 0.1 подготовлены к согласованию. Замечания заказчика и преподавателя и решения по ним фиксируются в [pull request](https://github.com/vi13x/SDLC/pull/1).
